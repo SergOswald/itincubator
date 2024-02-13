@@ -197,18 +197,18 @@ a {
         height: 140px;
         padding: 0px;
         margin: 0px;
-        justify-content: center;
-
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0px;
     }
 
     .footer-link {
-        padding: 0px;
-        margin: 0px;
+        padding: 9px 15px;
+        margin: 20px 15px 0 15px;
     }
 
-    .conteiner > footer {
+    footer {
         height: 140px;
-
     }
 
 }
